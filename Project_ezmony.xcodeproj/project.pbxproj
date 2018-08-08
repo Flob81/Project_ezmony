@@ -15,6 +15,9 @@
 		3B42E7FD211B7B410001967B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B42E7FB211B7B410001967B /* LaunchScreen.storyboard */; };
 		3B42E808211B7B410001967B /* Project_ezmonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E807211B7B410001967B /* Project_ezmonyTests.swift */; };
 		3B42E813211B7B410001967B /* Project_ezmonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E812211B7B410001967B /* Project_ezmonyUITests.swift */; };
+		6519E49352FA3BB8A2BC5177 /* Pods_Project_ezmonyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE3379F529CE3013A9B30B5 /* Pods_Project_ezmonyUITests.framework */; };
+		95FE05D6FD387E83BFA52E32 /* Pods_Project_ezmony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC4F7D1F1C2B398BC271EAB /* Pods_Project_ezmony.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		BEC5CD38FC501A3C09543562 /* Pods_Project_ezmonyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D73DEC57FE8DF3CF21D86C5 /* Pods_Project_ezmonyTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,7 +37,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3BAF48A6211B7F66008E5B2D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0AE3379F529CE3013A9B30B5 /* Pods_Project_ezmonyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_ezmonyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BC4F7D1F1C2B398BC271EAB /* Pods_Project_ezmony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_ezmony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42E7EC211B7B3F0001967B /* Project_ezmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_ezmony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42E7EF211B7B3F0001967B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B42E7F1211B7B3F0001967B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +67,13 @@
 		3B42E80E211B7B410001967B /* Project_ezmonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_ezmonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42E812211B7B410001967B /* Project_ezmonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ezmonyUITests.swift; sourceTree = "<group>"; };
 		3B42E814211B7B410001967B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC95B4EFA73FCC120F5218A /* Pods-Project_ezmony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmony.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmony/Pods-Project_ezmony.debug.xcconfig"; sourceTree = "<group>"; };
+		5D0B7AE73BD1ADE7E6A6FC9A /* Pods-Project_ezmonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmonyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmonyTests/Pods-Project_ezmonyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		726A1A9714F2B3D795D56E0F /* Pods-Project_ezmony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmony.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmony/Pods-Project_ezmony.release.xcconfig"; sourceTree = "<group>"; };
+		8D73DEC57FE8DF3CF21D86C5 /* Pods_Project_ezmonyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_ezmonyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A935785F8AD0AB62723930 /* Pods-Project_ezmonyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmonyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmonyTests/Pods-Project_ezmonyTests.release.xcconfig"; sourceTree = "<group>"; };
+		AA93C022D83AD787BEC7CDB1 /* Pods-Project_ezmonyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmonyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmonyUITests/Pods-Project_ezmonyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E5EFBC67320B87005761B661 /* Pods-Project_ezmonyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmonyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmonyUITests/Pods-Project_ezmonyUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FE05D6FD387E83BFA52E32 /* Pods_Project_ezmony.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BEC5CD38FC501A3C09543562 /* Pods_Project_ezmonyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6519E49352FA3BB8A2BC5177 /* Pods_Project_ezmonyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,8 @@
 				3B42E806211B7B410001967B /* Project_ezmonyTests */,
 				3B42E811211B7B410001967B /* Project_ezmonyUITests */,
 				3B42E7ED211B7B3F0001967B /* Products */,
+				C29C80F6C3A65BE678302A54 /* Pods */,
+				4525CED8B26C5BBAA097ABF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +158,29 @@
 			path = Project_ezmonyUITests;
 			sourceTree = "<group>";
 		};
+		4525CED8B26C5BBAA097ABF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BC4F7D1F1C2B398BC271EAB /* Pods_Project_ezmony.framework */,
+				8D73DEC57FE8DF3CF21D86C5 /* Pods_Project_ezmonyTests.framework */,
+				0AE3379F529CE3013A9B30B5 /* Pods_Project_ezmonyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C29C80F6C3A65BE678302A54 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BC95B4EFA73FCC120F5218A /* Pods-Project_ezmony.debug.xcconfig */,
+				726A1A9714F2B3D795D56E0F /* Pods-Project_ezmony.release.xcconfig */,
+				5D0B7AE73BD1ADE7E6A6FC9A /* Pods-Project_ezmonyTests.debug.xcconfig */,
+				A2A935785F8AD0AB62723930 /* Pods-Project_ezmonyTests.release.xcconfig */,
+				AA93C022D83AD787BEC7CDB1 /* Pods-Project_ezmonyUITests.debug.xcconfig */,
+				E5EFBC67320B87005761B661 /* Pods-Project_ezmonyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +188,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B42E817211B7B410001967B /* Build configuration list for PBXNativeTarget "Project_ezmony" */;
 			buildPhases = (
+				33F10065DA1D9049F6A079F0 /* [CP] Check Pods Manifest.lock */,
 				3B42E7E8211B7B3F0001967B /* Sources */,
 				3B42E7E9211B7B3F0001967B /* Frameworks */,
 				3B42E7EA211B7B3F0001967B /* Resources */,
+				7DAE426F2A57614BDC35E6C9 /* [CP] Embed Pods Frameworks */,
+				3BAF48A6211B7F66008E5B2D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B42E81A211B7B410001967B /* Build configuration list for PBXNativeTarget "Project_ezmonyTests" */;
 			buildPhases = (
+				2E278D191E6C7A0D92FE8FF4 /* [CP] Check Pods Manifest.lock */,
 				3B42E7FF211B7B410001967B /* Sources */,
 				3B42E800211B7B410001967B /* Frameworks */,
 				3B42E801211B7B410001967B /* Resources */,
@@ -170,6 +227,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B42E81D211B7B410001967B /* Build configuration list for PBXNativeTarget "Project_ezmonyUITests" */;
 			buildPhases = (
+				BB480FD4AF02D5346F7C680F /* [CP] Check Pods Manifest.lock */,
 				3B42E80A211B7B410001967B /* Sources */,
 				3B42E80B211B7B410001967B /* Frameworks */,
 				3B42E80C211B7B410001967B /* Resources */,
@@ -253,6 +311,81 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E278D191E6C7A0D92FE8FF4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project_ezmonyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		33F10065DA1D9049F6A079F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project_ezmony-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DAE426F2A57614BDC35E6C9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Project_ezmony/Pods-Project_ezmony-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Project_ezmony/Pods-Project_ezmony-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB480FD4AF02D5346F7C680F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Project_ezmonyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B42E7E8211B7B3F0001967B /* Sources */ = {
@@ -432,6 +565,7 @@
 		};
 		3B42E818211B7B410001967B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC95B4EFA73FCC120F5218A /* Pods-Project_ezmony.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +584,7 @@
 		};
 		3B42E819211B7B410001967B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 726A1A9714F2B3D795D56E0F /* Pods-Project_ezmony.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -468,6 +603,7 @@
 		};
 		3B42E81B211B7B410001967B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0B7AE73BD1ADE7E6A6FC9A /* Pods-Project_ezmonyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +625,7 @@
 		};
 		3B42E81C211B7B410001967B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2A935785F8AD0AB62723930 /* Pods-Project_ezmonyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -510,6 +647,7 @@
 		};
 		3B42E81E211B7B410001967B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AA93C022D83AD787BEC7CDB1 /* Pods-Project_ezmonyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +668,7 @@
 		};
 		3B42E81F211B7B410001967B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5EFBC67320B87005761B661 /* Pods-Project_ezmonyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
