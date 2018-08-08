@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3B42E7F0211B7B3F0001967B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E7EF211B7B3F0001967B /* AppDelegate.swift */; };
-		3B42E7F2211B7B3F0001967B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E7F1211B7B3F0001967B /* ViewController.swift */; };
+		3B42E7F2211B7B3F0001967B /* BudgetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E7F1211B7B3F0001967B /* BudgetViewController.swift */; };
 		3B42E7F5211B7B3F0001967B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B42E7F3211B7B3F0001967B /* Main.storyboard */; };
 		3B42E7F8211B7B3F0001967B /* Project_ezmony.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E7F6211B7B3F0001967B /* Project_ezmony.xcdatamodeld */; };
 		3B42E7FA211B7B410001967B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B42E7F9211B7B410001967B /* Assets.xcassets */; };
 		3B42E7FD211B7B410001967B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B42E7FB211B7B410001967B /* LaunchScreen.storyboard */; };
 		3B42E808211B7B410001967B /* Project_ezmonyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E807211B7B410001967B /* Project_ezmonyTests.swift */; };
 		3B42E813211B7B410001967B /* Project_ezmonyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B42E812211B7B410001967B /* Project_ezmonyUITests.swift */; };
+		3BAF48AA211B8825008E5B2D /* UebersichtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF48A9211B8825008E5B2D /* UebersichtViewController.swift */; };
+		3BAF48AC211B883F008E5B2D /* AnalyseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF48AB211B883F008E5B2D /* AnalyseViewController.swift */; };
+		3BAF48AE211B884D008E5B2D /* EinstellungenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BAF48AD211B884D008E5B2D /* EinstellungenViewController.swift */; };
 		6519E49352FA3BB8A2BC5177 /* Pods_Project_ezmonyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AE3379F529CE3013A9B30B5 /* Pods_Project_ezmonyUITests.framework */; };
 		95FE05D6FD387E83BFA52E32 /* Pods_Project_ezmony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC4F7D1F1C2B398BC271EAB /* Pods_Project_ezmony.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		BEC5CD38FC501A3C09543562 /* Pods_Project_ezmonyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D73DEC57FE8DF3CF21D86C5 /* Pods_Project_ezmonyTests.framework */; };
@@ -55,7 +58,7 @@
 		0BC4F7D1F1C2B398BC271EAB /* Pods_Project_ezmony.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Project_ezmony.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42E7EC211B7B3F0001967B /* Project_ezmony.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project_ezmony.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42E7EF211B7B3F0001967B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3B42E7F1211B7B3F0001967B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3B42E7F1211B7B3F0001967B /* BudgetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudgetViewController.swift; sourceTree = "<group>"; };
 		3B42E7F4211B7B3F0001967B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B42E7F7211B7B3F0001967B /* Project_ezmony.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Project_ezmony.xcdatamodel; sourceTree = "<group>"; };
 		3B42E7F9211B7B410001967B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +70,9 @@
 		3B42E80E211B7B410001967B /* Project_ezmonyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project_ezmonyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B42E812211B7B410001967B /* Project_ezmonyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_ezmonyUITests.swift; sourceTree = "<group>"; };
 		3B42E814211B7B410001967B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BAF48A9211B8825008E5B2D /* UebersichtViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UebersichtViewController.swift; sourceTree = "<group>"; };
+		3BAF48AB211B883F008E5B2D /* AnalyseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyseViewController.swift; sourceTree = "<group>"; };
+		3BAF48AD211B884D008E5B2D /* EinstellungenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EinstellungenViewController.swift; sourceTree = "<group>"; };
 		5BC95B4EFA73FCC120F5218A /* Pods-Project_ezmony.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmony.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmony/Pods-Project_ezmony.debug.xcconfig"; sourceTree = "<group>"; };
 		5D0B7AE73BD1ADE7E6A6FC9A /* Pods-Project_ezmonyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmonyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmonyTests/Pods-Project_ezmonyTests.debug.xcconfig"; sourceTree = "<group>"; };
 		726A1A9714F2B3D795D56E0F /* Pods-Project_ezmony.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Project_ezmony.release.xcconfig"; path = "Pods/Target Support Files/Pods-Project_ezmony/Pods-Project_ezmony.release.xcconfig"; sourceTree = "<group>"; };
@@ -130,12 +136,15 @@
 			isa = PBXGroup;
 			children = (
 				3B42E7EF211B7B3F0001967B /* AppDelegate.swift */,
-				3B42E7F1211B7B3F0001967B /* ViewController.swift */,
+				3B42E7F1211B7B3F0001967B /* BudgetViewController.swift */,
 				3B42E7F3211B7B3F0001967B /* Main.storyboard */,
 				3B42E7F9211B7B410001967B /* Assets.xcassets */,
 				3B42E7FB211B7B410001967B /* LaunchScreen.storyboard */,
 				3B42E7FE211B7B410001967B /* Info.plist */,
 				3B42E7F6211B7B3F0001967B /* Project_ezmony.xcdatamodeld */,
+				3BAF48A9211B8825008E5B2D /* UebersichtViewController.swift */,
+				3BAF48AB211B883F008E5B2D /* AnalyseViewController.swift */,
+				3BAF48AD211B884D008E5B2D /* EinstellungenViewController.swift */,
 			);
 			path = Project_ezmony;
 			sourceTree = "<group>";
@@ -393,7 +402,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B42E7F8211B7B3F0001967B /* Project_ezmony.xcdatamodeld in Sources */,
-				3B42E7F2211B7B3F0001967B /* ViewController.swift in Sources */,
+				3B42E7F2211B7B3F0001967B /* BudgetViewController.swift in Sources */,
+				3BAF48AE211B884D008E5B2D /* EinstellungenViewController.swift in Sources */,
+				3BAF48AC211B883F008E5B2D /* AnalyseViewController.swift in Sources */,
+				3BAF48AA211B8825008E5B2D /* UebersichtViewController.swift in Sources */,
 				3B42E7F0211B7B3F0001967B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
